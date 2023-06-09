@@ -1,0 +1,176 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f7f7f7, #eaeaea);
+  color: #333333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Header */
+.hero {
+  background: linear-gradient(to bottom, #87ceeb, #1595f1);
+  color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hero Content */
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #1595f1;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #f5f5f5;
+}
+
+/* Menu */
+.menu-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.menu-item-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.menu-item-content {
+  flex: 1;
+}
+
+.menu-item-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menu-item-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.menu-item-price {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #1595f1;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Contact Form */
+.myForm input,
+.myForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.myForm textarea {
+  height: 120px;
+}
+
+.myForm button {
+  display: inline-block;
+  background-color: #1595f1;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.myForm button:hover {
+  background-color: #1280c5;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(to bottom, #1595f1, #87ceeb);
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}

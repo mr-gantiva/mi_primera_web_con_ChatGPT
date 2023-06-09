@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurante Vegetariano</title>
+  </head>
+
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <h1 class="logo">Restaurante Vegetariano</h1>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre Nosotros</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1 class="hero-title">Bienvenido a nuestro restaurante vegetariano</h1>
+        <p class="hero-subtitle">
+          Descubre una deliciosa variedad de platos vegetarianos hechos con
+          ingredientes frescos y naturales.
+        </p>
+        <a href="#menu" class="cta-button">Ver Menú</a>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <p class="section-text">
+          Somos un restaurante vegetariano comprometido con la salud y el
+          bienestar. Nuestro objetivo es brindar opciones deliciosas y
+          nutritivas que satisfagan los paladares más exigentes.
+        </p>
+        <p class="section-text">
+          Nuestros chefs expertos utilizan ingredientes frescos y de origen
+          local para crear platos que resaltan los sabores naturales de los
+          vegetales. Además, ofrecemos opciones veganas y sin gluten para
+          adaptarnos a las diferentes preferencias y necesidades dietéticas.
+        </p>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="container">
+        <h2 class="section-title">Nuestro Menú</h2>
+        <div class="menu-item">
+          <img
+            src="https://images.unsplash.com/photo-1542528180-a1208c5169a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1477&q=80"
+            alt="Plato 1"
+            class="menu-item-image"
+          />
+          <div class="menu-item-content">
+            <h3 class="menu-item-title">Ensalada Mediterránea</h3>
+            <p class="menu-item-description">
+              Una mezcla fresca de lechuga, tomates cherry, pepino, aceitunas y
+              queso feta con aderezo de hierbas.
+            </p>
+            <span class="menu-item-price">$10.99</span>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://images.unsplash.com/photo-1666599207792-d25938831199?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt="Plato 2"
+            class="menu-item-image"
+          />
+          <div class="menu-item-content">
+            <h3 class="menu-item-title">Lasagna de Verduras</h3>
+            <p class="menu-item-description">
+              Capas de pasta, espinacas, calabacín, champiñones y queso vegano,
+              horneadas a la perfección.
+            </p>
+            <span class="menu-item-price">$12.99</span>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://images.unsplash.com/photo-1629680871149-434f75071693?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+            alt="Plato 3"
+            class="menu-item-image"
+          />
+          <div class="menu-item-content">
+            <h3 class="menu-item-title">Burger de Lentejas</h3>
+            <p class="menu-item-description">
+              Deliciosa hamburguesa vegana a base de lentejas, acompañada de
+              papas fritas caseras.
+            </p>
+            <span class="menu-item-price">$9.99</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contáctanos</h2>
+        <p class="section-text">
+          Estamos encantados de responder tus preguntas y recibir tus
+          comentarios. ¡No dudes en ponerte en contacto con nosotros!
+        </p>
+        <form class="myForm">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nombre"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Mensaje"
+            required
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2023 Restaurante Vegetariano. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
