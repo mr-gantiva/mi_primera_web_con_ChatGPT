@@ -39,7 +39,7 @@ body {
 
 /* Header */
 .hero {
-  background: url("./imagenes/pexels-photo-3201922.jpeg");
+  background: url("https://res.cloudinary.com/kenobi22v/image/upload/v1686279929/pexels-photo-3201922_dr1wvl.jpg");
   color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
