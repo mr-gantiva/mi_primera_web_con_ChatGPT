@@ -12,9 +12,12 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .section {
@@ -25,6 +28,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .section-text {
@@ -35,9 +39,11 @@ body {
 
 /* Header */
 .hero {
-  background: linear-gradient(to bottom, #87ceeb, #1595f1);
+  background: url("./imagenes/pexels-photo-3201922.jpeg");
   color: #ffffff;
-  padding: 60px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 450px;
   text-align: center;
 }
 
@@ -46,6 +52,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  background-color: rgba(96, 96, 96, 0.49);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border: 1px solid rgba(96, 96, 96, 0.3);
 }
 
 .logo {
@@ -67,11 +80,21 @@ body {
   text-decoration: none;
   font-size: 16px;
 }
+.nav-links a:hover {
+  color: gold;
+}
 
 /* Hero Content */
 .hero-content {
   max-width: 600px;
   margin: 0 auto;
+  background-color: rgba(96, 96, 96, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.4px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(96, 96, 96, 0.3);
+  padding: 20px;
 }
 
 .hero-title {
@@ -95,15 +118,23 @@ body {
   font-size: 16px;
   transition: background-color 0.3s;
 }
-
 .cta-button:hover {
-  background-color: #f5f5f5;
+  background-color: goldenrod;
+  color: darkblue;
+}
+
+/*About*/
+.container-about {
+  margin: 0 auto;
+  width: 900px;
 }
 
 /* Menu */
 .menu-item {
   display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
+  width: 200px;
 }
 
 .menu-item-image {
@@ -127,6 +158,7 @@ body {
 .menu-item-description {
   font-size: 16px;
   margin-bottom: 10px;
+  min-height: 100px;
 }
 
 .menu-item-price {
@@ -136,9 +168,18 @@ body {
   padding: 6px 12px;
   border-radius: 4px;
   font-size: 16px;
+  width: 80px;
+  text-align: center;
 }
 
 /* Contact Form */
+.container-form {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .myForm input,
 .myForm textarea {
   width: 100%;
@@ -173,4 +214,33 @@ body {
   color: #ffffff;
   padding: 20px 0;
   text-align: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .hero {
+    padding: 20px;
+  }
+  .hero-title {
+    font-size: 24px;
+  }
+  .navbar {
+    display: none;
+  }
+  .about,
+  .container-about,
+  .container-form {
+    width: 300px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .menu-item {
+    width: 100%;
+  }
+  .menu-item img {
+    width: 100%;
+  }
+  .img-burger-dekstop {
+    display: none;
+  }
 }
