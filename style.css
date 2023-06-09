@@ -43,6 +43,7 @@ body {
   color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 60px 450px;
   text-align: center;
 }
